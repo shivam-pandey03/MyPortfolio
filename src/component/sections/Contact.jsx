@@ -12,7 +12,7 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
-      // web3forms api used here for contact thorugh  email
+      // web3forms api used here for contact through email
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
@@ -20,7 +20,8 @@ const Contact = () => {
           Accept: "application/json",
         },
         body: JSON.stringify({
-          access_key: "8fc08b6e-648f-4b0a-9c68-188d747f249e", 
+          // Securely calling the API key from the .env file
+          access_key: import.meta.env.VITE_CONTACT_API_KEY, 
           name: formState.name,
           email: formState.email,
           message: formState.message,
