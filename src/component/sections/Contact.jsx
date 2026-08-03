@@ -12,6 +12,7 @@ const Contact = () => {
     setIsSubmitting(true);
     
     try {
+      // web3forms api used here for contact thorugh  email
       const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {

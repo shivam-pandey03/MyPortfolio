@@ -19,7 +19,7 @@ const Navbar = () => {
     if (typeof window !== "undefined") {
       return localStorage.getItem("theme") === "dark";
     }
-    return false; // Default to light mode
+    return false; // Default to light mode or last saved
   });
 
   // Apply the dark class to HTML whenever state changes

@@ -46,7 +46,7 @@ const Footer = () => {
     { icon: GithubIcon, href: 'https://github.com/shivam-pandey03', label: 'GitHub' },
     { icon: LinkedinIcon, href: 'https://www.linkedin.com/in/shivam-pandey03/', label: 'LinkedIn' },
     { icon: TwitterIcon, href: 'https://x.com/Shivamp2503', label: 'Twitter' },
-    { icon: Mail, href: 'mailto:shivampandey2503@gmail.com', label: 'Email' },
+    { icon: Mail, href: 'https://mail.google.com/mail/?view=cm&fs=1&to=shivampandey2503@gmail.com', label: 'Email' },
   ];
 
   return (

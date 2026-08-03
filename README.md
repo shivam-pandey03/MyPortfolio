@@ -16,4 +16,4 @@ This project was built using modern web technologies:
 * Web3forms - Integrated Web3Forms to enable secure contact form submissions without requiring a custom backend service.
 
 
-That's all.
+That's all

@@ -22,7 +22,7 @@ const projectsData = [
     title: 'Personal Developer Portfolio',
     description: 'A fully responsive, modern web portfolio designed to showcase technical projects and skills. Engineered with dynamic theming (Light/Dark mode), scroll animations, and optimized for fast page loads and accessibility.',
     tags: ['React', 'Tailwind CSS', 'Framer Motion', 'Vite'],
-    githubUrl: 'https://github.com/shivam-pandey03/portfolio', // Update with your actual repo if different
+    githubUrl: 'https://github.com/shivam-pandey03/portfolio', 
     liveUrl: '#', // It's already live here!
     featured: false,
   },
@@ -30,7 +30,7 @@ const projectsData = [
     title: 'Academic Mini-Project / Utility',
     description: 'A lightweight web utility built during my computer science coursework. Focused on clean logic, API integration, and rendering dynamic data efficiently to the DOM without external libraries.',
     tags: ['JavaScript', 'HTML5', 'CSS3', 'REST API'],
-    githubUrl: 'https://github.com/shivam-pandey03', // Swap with a small repo of yours
+    githubUrl: 'https://github.com/shivam-pandey03', 
     liveUrl: '#',
     featured: false,
   }
