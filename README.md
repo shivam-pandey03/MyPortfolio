@@ -3,8 +3,7 @@
 A responsive and modern personal portfolio website built to showcase my software development projects, technical skills, and professional experience. 
 
  #Live Demo
-[Click here to view the live website](https://your-netlify-link-goes-here.netlify.app)
-*(Note: Replace the link above with your actual Netlify link once deployed!)*
+[Click here to view the live website](https://portshivam03.netlify.app)
 
  Technologies Used
 This project was built using modern web technologies:
