@@ -145,7 +145,7 @@ const Contact = () => {
               <span className="relative inline-flex rounded-full h-3 w-3 bg-green-500"></span>
             </span>
             <span className="text-sm font-mono text-slate-700 dark:text-gray-300 transition-colors">
-              Currently available for full-time roles & contracts.
+              Currently available for full-time & contracts roles.
             </span>
           </div>
 
