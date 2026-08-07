@@ -13,7 +13,7 @@
 
 @layer base {
   :root {
-    /* LIGHT MODE: Pure Off-White (Lets your component glow orbs shine) */
+    /* LIGHT MODE */
     --bg-base: #F8FAFC; 
     --bg-gradient: none; 
     --surface-color: rgba(255, 255, 255, 0.8);
@@ -21,7 +21,7 @@
   }
 
   .dark {
-    /* DARK MODE: Pure Obsidian Black */
+    /* DARK MODE */
     --bg-base: #030712;
     --bg-gradient: none;
     --surface-color: rgba(17, 24, 39, 0.6);
