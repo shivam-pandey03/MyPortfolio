@@ -87,14 +87,14 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Column 3: Stay Connected & Socials (Right) */}
+          {/* Column 3: footer section social rights */}
           <div className="md:col-span-4 flex flex-col md:items-end md:text-right">
             <h3 className="text-lg font-bold text-slate-900 dark:text-white mb-6">Stay Connected</h3>
             <p className="text-sm leading-relaxed text-slate-600 dark:text-slate-400 max-w-sm mb-6">
               Don't let your ideas stay ideas. Reach out, and let's build something great together.
             </p>
             
-            {/* Social Logos mapped to the Right Side */}
+            {/* Social Logos at right Side */}
             <div className="flex items-center gap-4">
               {socialLinks.map((social) => {
                 const Icon = social.icon;
