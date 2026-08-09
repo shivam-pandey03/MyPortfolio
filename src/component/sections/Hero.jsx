@@ -189,7 +189,7 @@ const Hero = () => {
             {/* The Image Container */}
             <div className="relative w-full h-full rounded-full border-4 border-white dark:border-slate-800 shadow-2xl overflow-hidden bg-slate-100 dark:bg-slate-900">
               <img
-                src="profile.jpeg"
+                src="profile1.jpg"
                 alt="Shivam Pandey"
                 className="w-full h-full object-cover"
               />
