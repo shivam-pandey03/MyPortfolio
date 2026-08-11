@@ -191,7 +191,7 @@ const Hero = () => {
               <img
                 src="profile1.jpg"
                 alt="Shivam Pandey"
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-top scale-[1.25] translate-y-2 sm:translate-y-3"
               />
             </div>
 
