@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Mail, ArrowUp } from 'lucide-react';
 import { motion } from 'framer-motion';
 
@@ -26,6 +26,14 @@ const TwitterIcon = ({ className }) => (
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
+  const [time, setTime] = useState(new Date());
+
+  useEffect(() => {
+    const timerId = setInterval(() => {
+      setTime(new Date());
+    }, 1000);
+    return () => clearInterval(timerId);
+  }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -120,6 +128,11 @@ const Footer = () => {
         {/* Bottom Row: Centered Copyright & Back to Top */}
         <div className="relative border-t border-slate-200 dark:border-slate-800/80 pt-8 flex flex-col items-center justify-center">
           
+          {/* Live Timer aligned to the left edge (hidden on very small screens to prevent overlap) */}
+          <div className="hidden sm:block absolute left-0 top-8 text-xs sm:text-sm font-mono font-medium text-slate-500 dark:text-slate-500">
+            {time.toLocaleTimeString()}
+          </div>
+
           <p className="text-xs sm:text-sm font-medium text-slate-500 dark:text-slate-500 text-center">
             Copyright &copy; {currentYear} by Shivam Pandey | All Rights Reserved.
           </p>
