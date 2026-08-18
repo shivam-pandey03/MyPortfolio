@@ -61,7 +61,7 @@ const Footer = () => {
     <footer className="relative bg-white dark:bg-[#080d19] text-slate-600 dark:text-slate-400 pt-16 pb-8 transition-colors duration-300">
       
       {/* Top Gradient Accent Line (Matching Section Underlines) */}
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-4/5 h-1 bg-gradient-to-r from-primary to-secondary rounded-b-full" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-4/5 h-1 bg-linear-to-r from-primary to-secondary rounded-b-full" />
 
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         
@@ -129,7 +129,7 @@ const Footer = () => {
         <div className="relative border-t border-slate-200 dark:border-slate-800/80 pt-8 flex flex-col items-center justify-center">
           
           {/* Live Timer aligned to the left edge (hidden on very small screens to prevent overlap) */}
-          <div className="hidden sm:block absolute left-0 top-8 text-xs sm:text-sm font-mono font-medium text-slate-500 dark:text-slate-500">
+          <div className="hidden sm:block absolute left-0 top-8 text-xs sm:text-sm font-mono font-medium text-slate-500 dark:text-slate-500  hover:bg-blue-100 rounded-sm ">
             {time.toLocaleTimeString()}
           </div>
 
