@@ -36,7 +36,7 @@ const Experience = () => {
     <section id="experience" className="py-24 px-4 sm:px-6 lg:px-8 max-w-5xl mx-auto relative transition-colors duration-300">
       
       {/* Ambient Background Glow */}
-      <div className="absolute top-1/2 right-1/3 -translate-y-1/2 w-[400px] h-[400px] bg-primary/10 rounded-full blur-[140px] -z-10 pointer-events-none" />
+      <div className="absolute top-1/2 right-1/3 -translate-y-1/2 w-100 h-100 bg-primary/10 rounded-full blur-[140px] -z-10 pointer-events-none" />
 
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto mb-20">
