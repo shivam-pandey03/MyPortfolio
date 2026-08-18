@@ -73,7 +73,7 @@ const Contact = () => {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="w-20 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full mb-6"
+          className="w-20 h-1 bg-linear-to-r from-primary to-secondary mx-auto rounded-full mb-6"
         />
         <motion.p 
           initial={{ opacity: 0, y: 20 }}
